@@ -1,0 +1,67 @@
+.bk{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+.abt-website{
+    height: 70px;
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.abt-website .money img{
+    height: 50px;
+    
+}
+.abt-website .time img{
+    height: 50px;
+    
+}
+.abt-website .record img{
+    height: 50px;
+    
+}
+.bk img{
+    width: 100%;
+    height: 800px;
+
+    overflow-x: hidden;
+    
+}
+.bk .icons{
+    width: 100%;
+   
+    background-color: #242424;
+}
+.bk .meausiums{
+    width: 70%;
+    height: 900px;
+    background-color: #242424;
+}
+.bk .icons p{
+    font-size: 30px;
+    
+}
+.card-title{
+    
+    width: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.card-title p{
+    font-size: 3vh;
+}
+.meausiums{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,79 @@
+
+/* Heading Section */
+#heading {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+  }
+  
+  #heading h1 {
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+  
+  #heading .border {
+    width: 300px;
+    height: 2px;
+    background-color: #ffffff;
+    margin: 10px auto 0;
+  }
+  
+  /* Progress Container */
+  #progress-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    text-align: center;
+  }
+  
+  #progress {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    color: #00ff00;
+  }
+  
+  /* Renderer Container */
+  div[ref="rendererRef"] {
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  
+  /* Mobile Adjustments */
+  @media (max-width: 768px) {
+    #heading h1 {
+      font-size: 1.5rem;
+    }
+  
+    #progress {
+      font-size: 1rem;
+      padding: 8px 16px;
+    }
+  }
+  .con{
+    width: 500px;
+    height: 400px;
+  
+  }
+  
+  canvas{
+    height: 400px;
+   
+  }
+  .modell{
+    position: absolute;
+    top: 20%;
+    right: 10%;    
+
+  }

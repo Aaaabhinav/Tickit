@@ -1,0 +1,120 @@
+.card8 {
+    background-image: url("hawai.jpeg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    height: 300px;
+    margin: 10px; /* Added margin for spacing between cards */
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -3px -3px 10px rgba(0, 0, 0, 0.8);
+    transition: 0.3s all ease;
+}
+
+.card8:hover {
+    transform: scale(0.95);
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.9), -6px -6px 15px rgba(0, 0, 0, 0.9);
+}
+
+.image-black {
+    transition: 0.3s all ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.card8:hover .image-black {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-content8 {
+    background-color: #00e2f7;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: start;
+    padding: 10px 20px;
+}
+
+.wrap-btn8 {
+    transition: 0.6s all ease;
+    height: 0;
+    overflow: hidden;
+}
+
+.btn-follow8 {
+    background-color: #e94560;
+    letter-spacing: 0.6px;
+    margin-top: 10px;
+    border: 0px solid;
+    padding: 10px 22px;
+    border-radius: 8px;
+}
+
+.btn-follow8 a {
+    color: white;
+}
+
+.card8:hover .wrap-btn8 {
+    height: 50px;
+}
+
+.containerop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    height: 900px;
+    width: 90%; /* Adjusted to full width */
+    overflow-y: auto; /* Changed to auto for better scrolling */
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.containerop::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+
+.scroll-button {
+    position:fixed; /* Changed to absolute to position inside the container */
+    background-color: #e94560;
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 1000;
+    border-radius: 5px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.up-button {
+    top: 10px;
+    right: 10px;
+}
+
+.down-button {
+    bottom: 10px;
+    right: 10px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 26px; /* Adjust space between cards */
+    width: 100%; /* Ensures the container uses the full width */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the cards wrap inside the container */
+    justify-content: center; /* Centers the cards horizontally */
+    gap: 16px; /* Adjust space between cards */
+    margin: 0; /* Removed margin to prevent extra spacing issues */
+    width: 100%;
+    
+}

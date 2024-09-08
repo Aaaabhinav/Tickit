@@ -1,0 +1,341 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+
+  color-scheme: light dark;
+  color: rgba(250, 250, 250, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*{
+  
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  
+  justify-content: flex-start;
+  align-items: flex-start ;
+  min-width: : 100vh;
+  min-height: 100vh;
+  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.head .logo{
+  height: 10vh;
+  margin-right: 10px;
+}
+
+
+.search .calender{
+  height: 6vh;
+}
+.head{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  position: relative;
+  z-index: 1;
+  /*background-color: rgba(58, 57, 57, 0.8);*/ 
+  height: 10vh;
+  
+  
+   
+  
+}
+
+.search{
+  display: flex;
+  width: 50vw;
+  justify-content: space-evenly;
+  
+}
+
+.search .ticke,.calen{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  ;
+}
+
+.search .ticket{
+  height: 9vh;
+  
+
+}
+.head button{
+  background-color: #3f24c6;
+  display: flex;
+  align-items: center;
+  height: 40px;
+
+}
+#root{
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+  
+}
+
+
+
+
+.centertext{
+  margin-top: 25vh;
+  margin-right: 900px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+  justify-self: center;
+  align-self: center;
+}
+.centertext {
+  font-size: 5vh;
+  
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(58, 53, 53, 0.7);
+  font-family: TypoSlab Irregular Demo;
+  
+
+}
+
+.head .hot{
+  height: 5vh;
+}
+.head .tra{
+  height: 5vh;
+}
+.head .tra{
+  height: 4vh;
+}
+
+.head .foo{
+  height: 5vh;
+}
+.head .hm{
+  height: 4vh;
+}
+
+.head .home,.hot,.travel,.food{
+  display: flex;
+  
+
+  flex-direction: column;
+  height: 50px;
+
+}
+.head .food{
+  margin-bottom: 8px;
+}
+.head .home p{
+  margin:0px;
+  padding: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+
+}
+.head .hotel p{
+  margin:0px;
+  padding: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+
+}
+.head .travel p{
+  margin:0px;
+  padding: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+
+}
+.head .food p{
+  margin:0px;
+  padding: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+
+}
+.head .logsi{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 15vw;
+
+  
+}
+.foot{
+  margin: 0px;
+  margin-right: 65vw;
+  margin-left: 50px;
+  
+  
+  
+
+}
+.foot input{
+  height: 20px;
+  width: 400px;
+  border-radius: 100px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  
+  background: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+.foot input::placeholder{
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.search .calen{
+  margin-top: 10px;
+}
+.carousel-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: absolute; /* Make sure the carousel is positioned relative to the viewport */
+  top: 0;
+  left: 0;
+  z-index: -1; /* Ensure the carousel is behind other content */
+}
+
+.image-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.image {
+  flex-shrink: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure each image is behind other content */
+}
+
+
+.background2 {
+  width: 100vh;
+  height: 100vw;
+  object-fit: cover;
+  z-index: -2; /* Ensure each image is behind other content */
+}
+
+
+
+
+/* Keyframes for sliding images */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+.idlog{
+  margin-left: 100px;
+}
+
+.logsi button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  background-color: rgba(11, 33, 234, 0.7);
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.logsi button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+}
+
+.home:hover img, .hotel:hover img, .travel:hover img, .food:hover img {
+  transform: scale(1.2); /* Increase size of the icon on hover */
+}
+.calen:hover img, .ticke:hover img, .travel:hover img, .food:hover img {
+  transform: scale(1.2); /* Increase size of the icon on hover */
+}
